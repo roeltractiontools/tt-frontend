@@ -1,3 +1,12 @@
-.protanopia{
+.protanopia .btn-action{
     background: #6CEA18 !important;
+    &:hover{
+        background: #61CC1B !important;
+    }
+}
+.deuteranopes .btn-action{
+    background: #F7C22E !important;
+    &:hover{
+        background: #72B90E !important;
+    }
 }

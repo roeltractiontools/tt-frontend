@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Button, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Form, FormGroup, Label, Input, FormFeedback, FormText} from 'reactstrap';
 
-class colordeuteranopes extends Component {
+class colortritanopespage extends Component {
     constructor (props){
         super(props);
         this.state = {
             isBlind: true,
-            blindType: 'deuteranopes'
+            blindType: 'tritanopes'
         }
     }
     render() {
@@ -46,4 +46,4 @@ class colordeuteranopes extends Component {
     }
 }
 
-export default colordeuteranopes;
+export default colortritanopespage;

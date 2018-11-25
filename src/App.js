@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import  Sidenav from './components/Sidenav/Sidenav'
 import Topnav from './components/Nav/Topnav';
-import Pages from '../src/pages/Pages';
+import PagesRouter from '../src/pages/PagesRouter';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
             <div className="page-body">
             <BrowserRouter>
             <Switch>
-              <Route path='/' component={Pages} /> {''}
+              <Route path='/' component={PagesRouter} /> {''}
               {/* <Route path='/dashboard' component={UsersPage} /> */}  
             </Switch>
             </BrowserRouter>

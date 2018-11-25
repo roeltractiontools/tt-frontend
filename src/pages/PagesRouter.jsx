@@ -10,40 +10,48 @@ import tablepage from './tablepage'
 import tabpage from './tabpage'
 import alertpage from './alertpage'
 import colorprotanopiapage from './colorprotanopiapage'
+import colordeuteranopes from './colordeuteranopes'
+import colortritanopespage from './colortritanopespage'
 
-export default class Pages extends Component {
+export default class PagesRouter extends Component {
   render() {
     const { match } = this.props;
     return (
       <div>
           <Switch>
             <Route
-              path={`/buttonpages`}
+              path={`/buttons`}
               component={buttonpages}/>
             <Route
-              path={`/inputpages`}
+              path={`/inputs`}
               component={inputpages}/>
               <Route
-              path={`/formpages`}
+              path={`/forms`}
               component={formpages}/>
               <Route
-              path={`/textareapage`}
+              path={`/textarea`}
               component={textareapage}/>
               <Route
-              path={`/selectpage`}
+              path={`/select`}
               component={selectpage}/>
               <Route
-              path={`/tablepage`}
+              path={`/table`}
               component={tablepage}/>
               <Route
-              path={`/tabpage`}
+              path={`/tabs`}
               component={tabpage}/>
               <Route
-              path={`/alertpage`}
+              path={`/alert`}
               component={alertpage}/>
               <Route
-              path={`/colorprotanopiapage`}
+              path={`/protanopia`}
               component={colorprotanopiapage}/>
+              <Route
+              path={`/deuteranopes`}
+              component={colordeuteranopes}/>
+              <Route
+              path={`/tritanopes`}
+              component={colortritanopespage}/>
           </Switch>
       </div>
     )

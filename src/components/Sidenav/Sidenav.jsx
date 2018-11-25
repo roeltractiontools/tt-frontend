@@ -25,19 +25,19 @@ class Sidenav extends Component {
               </a>
           </li>
           <li className="nav-item active">
-              <a className="nav-link" href="/buttonpages">
+              <a className="nav-link" href="/buttons">
                 <img src={icon} alt=""/>
                 <span>Buttons</span>
               </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/alertpage">
+            <a className="nav-link" href="/alert">
             <img src={icon} alt=""/>
               <span>Alerts</span>
             </a>
           </li>
           <li className="nav-item">
-              <a className="nav-link" href="/inputpages">
+              <a className="nav-link" href="/inputs">
                 <img src={icon} alt=""/>
                 <span>Inputs</span>
               </a>
@@ -48,32 +48,32 @@ class Sidenav extends Component {
                 <span>Forms</span>
             </a>
             <div className="dropdown-menu" aria-labelledby="pagesDropdown">
-              <a className="nav-link" href="/formpages#form-basic">
+              <a className="nav-link" href="/forms#form-basic">
                 <img src={icon} alt=""/>
                 <span>Form Basic</span>
               </a>
-              <a className="nav-link" href="/formpages#form-todo">
+              <a className="nav-link" href="/forms#form-todo">
               <img src={icon} />
                 <span>Form To-do</span>
               </a>
-              <a className="nav-link" href="/formpages#form-milestone">
+              <a className="nav-link" href="/forms#form-milestone">
               <img src={icon} />
                 <span>Form Milestone</span>
               </a>
-              <a className="nav-link" href="/formpages#form-scorecard">
+              <a className="nav-link" href="/forms#form-scorecard">
               <img src={icon} />
                 <span>Form Scorecard</span>
               </a>
             </div>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/textareapage">
+            <a className="nav-link" href="/textarea">
             <img src={icon} alt=""/>
               <span>Textarea</span>
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/selectpage">
+            <a className="nav-link" href="/select">
             <img src={icon} alt=""/>
               <span>Select</span>
             </a>
@@ -84,21 +84,41 @@ class Sidenav extends Component {
               <span>Tables</span>
             </a>
             <div className="dropdown-menu" aria-labelledby="pagesDropdown">
-              <a className="nav-link" href="/tabletpage#table-basic">
+              <a className="nav-link" href="/table#table-basic">
               <img src={icon} alt=""/>
                 <span>Table Basic</span>
               </a>
-              <a className="nav-link" href="/tablepage#table-archive">
+              <a className="nav-link" href="/table#table-archive">
               <img src={icon} alt=""/>
                 <span>Table Archive</span>
               </a>
             </div>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/tabpage">
+            <a className="nav-link" href="/tabs">
             <img src={icon} alt=""/>
               <span>Tab Menus</span>
             </a>
+          </li>
+          <li className="nav-item dropdown">
+            <a className="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src={icon} alt=""/>
+                <span>Color Blind</span>
+            </a>
+            <div className="dropdown-menu" aria-labelledby="pagesDropdown">
+              <a className="nav-link" href="/protanopia">
+                <img src={icon} alt=""/>
+                <span>Protanopia</span>
+              </a>
+              <a className="nav-link" href="/deuteranopes">
+              <img src={icon} />
+                <span>Deuteranopes</span>
+              </a>
+              <a className="nav-link" href="/tritanopes">
+              <img src={icon} />
+                <span>Tritanopes</span>
+              </a>
+            </div>
           </li>
         </ul>
     );
