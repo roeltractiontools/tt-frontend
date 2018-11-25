@@ -1,0 +1,24 @@
+.tabs-container{
+    border:solid 1px $color-medium-gray;
+    margin-bottom:15px;
+    .card{
+        border:none;
+    }
+}
+.btn-tabs{
+    background-color:#fff;
+    width:100%;
+    text-align:left;
+    border: none;
+    margin:0px;
+    &:hover{
+        background-color:#fff;
+    }
+    &:focus{
+        box-shadow: none;
+    }
+    i{
+        float:right;
+        line-height: inherit;
+    }
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+  <title>Starter Template for Bootstrap</title>
+  <!-- Bootstrap core CSS -->
+  <link href='css/bootstrap.css' rel='stylesheet' type='text/css'>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <link href='css/bootstrap-datepicker.min.css' rel='stylesheet' type='text/css'>
+  <link href="css/sb-admin.css" rel="stylesheet">
+  <link href="stylesheets/main.css" rel="stylesheet">
+  <!-- Custom styles for this template-->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <!-- Script -->
+  <script type="text/javascript">
+    $(function() {
+    $('.date').datepicker("setDate", new Date()); 
+  });
+  </script>
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+</head>
+<body id="page-top">
+  <div id="wrapper">
+    <!-- Sidebar -->
+    <ul class="sidebar navbar-nav">
+      <li class="nav-item">
+          <a class="nav-link nav-logo" href="index.html">
+            <img src="img/logo-square.png"/>
+            <span>Traction Tools</span>
+          </a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link nav-profile" href="index.html">
+          <div class="media">
+            <img class="align-self-center avatar" src="img/avatar.png">
+            <span class="ml-3 media-body">
+              <span class="mt-0 welcome-text">Welcome User</span><br/>
+              <span>Admin</span>
+            </span>
+          </div>
+          </a>
+      </li>
+      <li class="nav-item active">
+          <a class="nav-link" href="http://localhost/tractiontools/buttons">
+            <img src="img/icon.png"/>
+            <span>Buttons</span>
+          </a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="http://localhost/tractiontools/inputs">
+            <img src="img/icon.png"/>
+            <span>Inputs</span>
+          </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="img/icon.png"/>
+          <span>Forms</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+          <a class="nav-link" href="http://localhost/tractiontools/forms#form-basic">
+            <img src="img/icon.png"/>
+            <span>Form Basic</span>
+          </a>
+          <a class="nav-link" href="http://localhost/tractiontools/forms#form-todo">
+            <img src="img/icon.png"/>
+            <span>Form To-do</span>
+          </a>
+          <a class="nav-link" href="http://localhost/tractiontools/forms#form-milestone">
+            <img src="img/icon.png"/>
+            <span>Form Milestone</span>
+          </a>
+          <a class="nav-link" href="http://localhost/tractiontools/forms#form-scorecard">
+            <img src="img/icon.png"/>
+            <span>Form Scorecard</span>
+          </a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://localhost/tractiontools/textarea">
+          <img src="img/icon.png"/>
+          <span>Textarea</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://localhost/tractiontools/select">
+          <img src="img/icon.png"/>
+          <span>Select</span>
+        </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="img/icon.png"/>
+          <span>Tables</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+          <a class="nav-link" href="http://localhost/tractiontools/tables#table-basic">
+            <img src="img/icon.png"/>
+            <span>Table Basic</span>
+          </a>
+          <a class="nav-link" href="http://localhost/tractiontools/tables#table-archive">
+            <img src="img/icon.png"/>
+            <span>Table Archive</span>
+          </a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://localhost/tractiontools/tab-menus">
+          <img src="img/icon.png"/>
+          <span>Tab Menus</span>
+        </a>
+      </li>
+    </ul>
+    <!-- Top Navbar -->
+    <div class="container-page" id="content-wrapper">
+      <div class="container-fluid nav-container">
+        <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+          <button class="btn btn-link text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+            <i class="fas fa-bars"></i>
+          </button>
+          <button class="btn btn-link text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+            <i class="fas fa-expand"></i>
+          </button>
+          <!-- Navbar -->
+          <ul class="navbar-nav ml-auto mr-0 mr-md-10 my-2 my-md-0 company-setting">
+            <li class="nav-item dropdown no-arrow mx-1">
+              <div class="dropdown">
+                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Company
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- /.container-fluid -->
+      <div class="page">
+        <div class="page-body">
+          <h3>Buttons</h3>
+            <!-- Brand Button -->
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-action">Button 16px</button>
+                <button type="button" class="btn btn-action-alternative">Button 16px</button>
+                <div class="btn-group">
+                  <button class="btn btn-dropdown dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Large button
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-action-alternative disabled">Button 16px</button>
+                <div class="btn-group btn-group-toggle btn-toogle" data-toggle="buttons">
+                  <label class="btn btn-regular active">
+                    <input type="radio" name="options" id="option1" autocomplete="off" checked> Option 1
+                  </label>
+                  <label class="btn btn-regular">
+                    <input type="radio" name="options" id="option2" autocomplete="off"> Option 2
+                  </label>
+                  <label class="btn btn-regular">
+                    <input type="radio" name="options" id="option3" autocomplete="off"> Option 3
+                  </label>
+                </div>
+                <button type="button" class="btn btn-secondary-green">Button with icon <i class="fa fa-magic ml-1"></i></button>
+              </div>
+              <div class="card-body">
+                  <xmp><button type="button" class="btn btn-action">Button 16px</button></xmp>
+                  <xmp><button type="button" class="btn btn-action-alternative">Button 16px</button></xmp>
+                  <xmp><div class="btn-group">
+                    <button class="btn btn-dropdown dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Large button
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div></xmp>
+                  <xmp><button type="button" class="btn btn-action-alternative disabled">Button 16px</button></xmp>
+                  <xmp><div class="btn-group btn-group-toggle btn-toogle" data-toggle="buttons">
+                    <label class="btn btn-regular active">
+                      <input type="radio" name="options" id="option1" autocomplete="off" checked> Option 1
+                    </label>
+                    <label class="btn btn-regular">
+                      <input type="radio" name="options" id="option2" autocomplete="off"> Option 2
+                    </label>
+                    <label class="btn btn-regular">
+                      <input type="radio" name="options" id="option3" autocomplete="off"> Option 3
+                    </label>
+                  </div></xmp>
+                  <xmp><button type="button" class="btn btn-secondary-green">Button with icon <i class="fa fa-magic ml-1"></i></button></xmp>
+              </div>
+            </div>
+            <!-- Sizes -->
+            <h3>Button Sizes</h3>
+            <div class="card">
+              <div class="card-header">
+                <button type="button" class="btn btn-lg">Button 16px</button>
+                <button type="button" class="btn btn">Button 16px</button>
+                <button type="button" class="btn btn-sm">Button 16px</button>
+              </div>
+              <div class="card-body">
+                <xmp><button type="button" class="btn btn-lg">Button 16px</button></xmp>
+                <xmp><button type="button" class="btn btn">Button 16px</button></xmp>
+                <xmp><button type="button" class="btn btn-sm">Button 16px</button></xmp>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- Bootstrap core JavaScript -->
+  <!-- Custom styles for this template -->
+  <script src="js/jquery.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src='js/bootstrap-datepicker.min.js' type='text/javascript'></script>
+  <script src="js/sb-admin.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>

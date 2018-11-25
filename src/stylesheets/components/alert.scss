@@ -1,0 +1,24 @@
+%alert{
+    color:#fff;
+    border-radius:0px;
+    padding:15px;
+    i{
+        margin-right:10px;
+    }
+    .close{
+        font-size: 20px;
+        line-height: unset;
+    }
+}
+.alert-error{
+    @extend %alert;
+    background-color: $color-red;
+}
+.alert-success{
+    @extend %alert;
+    background-color: $color-green;
+}
+.alert-warning{
+    @extend %alert;
+    background-color: $color-orange;
+}

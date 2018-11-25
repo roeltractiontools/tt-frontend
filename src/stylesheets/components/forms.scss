@@ -1,0 +1,31 @@
+form{
+	label{
+		font-weight: $font-weight-semi-bold;
+		margin-bottom: 8px;
+	}
+	.form-control{
+		color: $color-medium-gray;
+		&:focus{
+			color: $color-charcoal;
+		}
+	}
+}
+.form-control.is-valid{
+    border-color: $color-green;
+}
+
+.form-control.is-invalid{
+    border-color: $color-red;
+}
+.form-control.is-valid~.valid-tooltip{
+    background-color: $color-green;
+}
+.form-control.is-invalid~.invalid-tooltip{
+    background-color: $color-red;
+}
+.valid-feedback{
+    color: $color-green;
+}
+.invalid-feedback{
+    color: $color-red;
+}

@@ -1,0 +1,9 @@
+.accordion .card-header:after {
+    font-family: 'Font Awesome 5 Free';  
+    content: "\f068";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f107"; 
+}

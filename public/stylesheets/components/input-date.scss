@@ -1,0 +1,48 @@
+.date{
+	input{
+		border-right:0px;
+	}
+	.input-group-text{
+		border-left:0px;
+	    background-color: #fff;
+	}
+	i{
+	    vertical-align: middle;
+	    display: flex;
+	}
+}
+.datepicker{
+	padding:0px;
+	table{
+		thead{
+			background-color: $color-light-gray;
+			tr{
+				th{
+					border-radius:0px;
+					background: $color-light-gray;
+					font-size: 13px;
+					padding: 5px;
+				}
+			}
+		}
+		tbody{
+			tr{
+				td{
+					font-size: 13px;
+					padding: 5px;
+					&.active{
+						&.active{
+						    background: none;
+						    color: #fff;
+						    background-color: $color-orange;
+						    &:hover{
+						    	background-color: $color-dark-orange;
+						    	color: #fff;
+						    }
+						}
+					}
+				}
+			}
+		}
+	}
+}

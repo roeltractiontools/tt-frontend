@@ -1,0 +1,15 @@
+form{
+	label{
+		font-weight: $font-weight-semi-bold;
+		margin-bottom: 8px;
+	}
+	.form-control{
+		color: $color-medium-gray;
+		&:focus{
+			color: $color-charcoal;
+		}
+	}
+}
+.form-control .isvalid{
+	border-color:red;
+}

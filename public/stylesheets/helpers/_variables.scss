@@ -1,0 +1,84 @@
+// ----------------------------------------------------------------------
+// Rule
+// Use null value for the empty variable in your mixins example: $variable: null
+// ----------------------------------------------------------------------
+
+// ----------------------------------------------------------------------
+// Brand Colors Variables
+// ----------------------------------------------------------------------
+$color-white: #fff;
+
+$color-black: #000;
+
+//Primary Brand Color
+$color-orange: #EF7622;
+
+$color-dark-orange: #DB6210;
+
+$color-charcoal: #3E3935;
+
+$color-dark-gray: #54534A;
+
+$color-medium-gray: #CAC8C8;
+
+$color-light-gray: #D8D9DA;
+
+//Secondary Brand Color
+$color-blue: #1968B2;
+
+$color-green: #0FA28E;
+
+$color-light-green: #00BFA5;
+
+$color-yellow: #FFD839;
+
+$color-red: #D0011B;
+
+$primary-color: #EF7622;
+$secondary-color: #D8D9DA;
+$tertiary-color: #00BFA5;
+
+// ----------------------------------------------------------------------
+// Border Variables
+// ----------------------------------------------------------------------
+
+// ----------------------------------------------------------------------
+// Font Variables
+// ----------------------------------------------------------------------
+
+$font-family: 'Open Sans', sans-serif;
+
+$font-size-h1: 48px;
+
+$font-size-h2: 32px; 
+
+$font-size-h3: 26px;
+
+$font-size-h4: 20px;
+
+$font-size-h5: 18px;
+
+$font-size-h6: 16px;
+
+$font-size-p: 14px;
+
+$font-weight-light: 300;
+
+$font-weight-regular: 400;
+
+$font-weight-semi-bold: 600;
+
+$font-weight-bold: 700;
+
+$font-weight-extra-bold: 800;
+
+// ----------------------------------------------------------------------
+// Grid Variables
+// ----------------------------------------------------------------------
+$grid-columns: 12;
+$grid-max-width: 65em;
+ 
+ 
+// breakpoints
+$breakpoint-small: "only screen and (min-width: 20em)";
+$breakpoint-medium: "only screen and (min-width: 30em)"; 
