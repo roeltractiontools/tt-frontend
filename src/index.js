@@ -4,8 +4,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "react-datepicker/dist/react-datepicker.css";
-import './stylesheets/main.scss'
+import 'react-datepicker/dist/react-datepicker.css';
+import './css/sb-admin.css';
+import './stylesheets/main.scss';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

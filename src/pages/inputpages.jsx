@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import InputIcon from '../components/Inputs/InputIcon'
-import InputRadio from '../components/Inputs/InputRadio'
-import InputCheckbox from '../components/Inputs/InputCheckbox'
+import InputIcon from '../components/Inputs/InputIcon';
+import InputRadio from '../components/Inputs/InputRadio';
+import InputCheckbox from '../components/Inputs/InputCheckbox';
 import { Button, Form, FormGroup, Label, Input, FormFeedback, FormText } from 'reactstrap';
 
 class inputpages extends Component {

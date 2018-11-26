@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Table from '../components/Tables/Table'
-import TableArchive from '../components/Tables/TableArchive'
+import Table from '../components/Tables/Table';
+import TableArchive from '../components/Tables/TableArchive';
 class tablepage extends Component {
     render() {
         return (

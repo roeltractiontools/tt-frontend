@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Textarea from '../components/Textarea/Textarea'
+import Textarea from '../components/Textarea/Textarea';
+
 class textareapage extends Component {
     render() {
         return (

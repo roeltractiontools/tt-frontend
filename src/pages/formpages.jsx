@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import InputCheckbox from '../components/Inputs/InputCheckbox'
-import Buttons from '../components/Buttons/Buttons'
-import FormTodo from '../components/Forms/FormTodo'
-import FormBasic from '../components/Forms/FormBasic'
-import FormMilestone from '../components/Forms/FormMilestone'
-import FormScorecard from '../components/Forms/FormScorecard'
-import FormValidation from '../components/Forms/FormValidation'
-import {Card, CardHeader, CardBody} from '../components/Card/Bundle'
+import InputCheckbox from '../components/Inputs/InputCheckbox';
+import Buttons from '../components/Buttons/Buttons';
+import FormTodo from '../components/Forms/FormTodo';
+import FormBasic from '../components/Forms/FormBasic';
+import FormMilestone from '../components/Forms/FormMilestone';
+import FormScorecard from '../components/Forms/FormScorecard';
+import FormValidation from '../components/Forms/FormValidation';
+import {Card, CardHeader, CardBody} from '../components/Card/Bundle';
 import { Button, Form, FormGroup, Label, FormText } from 'reactstrap';
 
 class formpages extends Component {

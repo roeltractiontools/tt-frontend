@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import  Sidenav from './components/Sidenav/Sidenav'
+import  Sidenav from './components/Nav/Sidenav';
 import Topnav from './components/Nav/Topnav';
 import PagesRouter from '../src/pages/PagesRouter';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';

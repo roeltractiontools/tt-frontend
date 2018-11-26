@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Tabs from '../components/Tabs/Tabs'
+import Tabs from '../components/Tabs/Tabs';
+
 class tabpage extends Component {
     render() {
         return (

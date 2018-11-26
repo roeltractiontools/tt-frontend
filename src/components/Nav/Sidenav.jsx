@@ -2,10 +2,37 @@ import React, { Component } from 'react';
 import logo from '../../img/logo-square.png';
 import avatar from '../../img/avatar.png';
 import icon from '../../img/icon.png';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem } from 'reactstrap';
 
 class Sidenav extends Component {
+  constructor(props) {
+    super(props);
+
+    this.toggleNavbar = this.toggleNavbar.bind(this);
+    this.state = {
+      collapsed: true
+    };
+  }
+
+  toggleNavbar() {
+    this.setState({
+      collapsed: !this.state.collapsed
+    });
+  }
   render() {
     return (
+      <div>
         <ul className="sidebar navbar-nav">
           <li className="nav-item">
               <a className="nav-link nav-logo" href="index.html">
@@ -121,6 +148,7 @@ class Sidenav extends Component {
             </div>
           </li>
         </ul>
+      </div>
     );
   }
 }
