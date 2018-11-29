@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Buttons from '../components/Buttons/Buttons'
 import { Button, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
-import {Card, CardHeader, CardBody} from '../components/Card/Bundle';
 
 class buttonpages extends Component {
     constructor(props) {

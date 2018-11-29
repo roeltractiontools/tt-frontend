@@ -1,6 +1,7 @@
 {
   "name": "tt-frontend-team",
   "version": "0.1.0",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.1.3",

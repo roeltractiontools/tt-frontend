@@ -20,37 +20,37 @@ export default class PagesRouter extends Component {
       <div>
           <Switch>
             <Route
-              path={`/buttons`}
+              path={`/:buttons`}
               component={buttonpages}/>
             <Route
-              path={`/inputs`}
+              path={`/:inputs`}
               component={inputpages}/>
               <Route
-              path={`/forms`}
+              path={`/:forms`}
               component={formpages}/>
               <Route
-              path={`/textarea`}
+              path={`/:textarea`}
               component={textareapage}/>
               <Route
-              path={`/select`}
+              path={`/:select`}
               component={selectpage}/>
               <Route
-              path={`/table`}
+              path={`/:table`}
               component={tablepage}/>
               <Route
-              path={`/tabs`}
+              path={`/:tabs`}
               component={tabpage}/>
               <Route
-              path={`/alert`}
+              path={`/:alert`}
               component={alertpage}/>
               <Route
-              path={`/protanopia`}
+              path={`/:protanopia`}
               component={colorprotanopiapage}/>
               <Route
-              path={`/deuteranopes`}
+              path={`/:deuteranopes`}
               component={colordeuteranopes}/>
               <Route
-              path={`/tritanopes`}
+              path={`/:tritanopes`}
               component={colortritanopespage}/>
           </Switch>
       </div>
