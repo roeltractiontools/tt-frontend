@@ -6,7 +6,6 @@ import FormBasic from '../components/Forms/FormBasic';
 import FormMilestone from '../components/Forms/FormMilestone';
 import FormScorecard from '../components/Forms/FormScorecard';
 import FormValidation from '../components/Forms/FormValidation';
-import {Card, CardHeader, CardBody} from '../components/Card/Bundle';
 import { Button, Form, FormGroup, Label, FormText } from 'reactstrap';
 
 class formpages extends Component {

@@ -14,6 +14,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 class Sidenav extends Component {
   constructor(props) {
@@ -52,22 +53,22 @@ class Sidenav extends Component {
               </a>
           </li>
           <li className="nav-item active">
-              <a className="nav-link" href="/buttons">
+              <Link to="/button" activeClassName="active">
                 <img src={icon} alt=""/>
                 <span>Buttons</span>
-              </a>
+              </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/alert">
+            <Link to="/alert" activeClassName="active">
             <img src={icon} alt=""/>
               <span>Alerts</span>
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-              <a className="nav-link" href="/inputs">
+              <Link to="/inputs" activeClassName="active">
                 <img src={icon} alt=""/>
                 <span>Inputs</span>
-              </a>
+              </Link>
           </li>
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -75,29 +76,29 @@ class Sidenav extends Component {
                 <span>Forms</span>
             </a>
             <div className="dropdown-menu" aria-labelledby="pagesDropdown">
-              <a className="nav-link" href="/forms#form-basic">
+              <Link to="/forms" activeClassName="active">
                 <img src={icon} alt=""/>
                 <span>Form Basic</span>
-              </a>
-              <a className="nav-link" href="/forms#form-todo">
+              </Link>
+              <Link to="/forms" activeClassName="active">
               <img src={icon} />
                 <span>Form To-do</span>
-              </a>
-              <a className="nav-link" href="/forms#form-milestone">
+              </Link>
+              <Link to="/forms" activeClassName="active">
               <img src={icon} />
                 <span>Form Milestone</span>
-              </a>
-              <a className="nav-link" href="/forms#form-scorecard">
+              </Link>
+              <Link to="/forms" activeClassName="active">
               <img src={icon} />
                 <span>Form Scorecard</span>
-              </a>
+              </Link>
             </div>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/textarea">
+            <Link to="/Textarea" activeClassName="active">
             <img src={icon} alt=""/>
               <span>Textarea</span>
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/select">
