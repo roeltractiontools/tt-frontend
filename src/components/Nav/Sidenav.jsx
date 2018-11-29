@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import logo from '../../img/logo-square.png';
 import avatar from '../../img/avatar.png';
 import icon from '../../img/icon.png';
-<<<<<<< HEAD
-=======
 import {
   Collapse,
   Navbar,
@@ -17,7 +15,6 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
->>>>>>> 25bc1001d2c2033979ef575f2258905e3225c54a
 
 class Sidenav extends Component {
   render() {

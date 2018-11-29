@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import  Sidenav from './components/Nav/Sidenav';
 import Topnav from './components/Nav/Topnav';
-import PagesRouter from '../src/pages/PagesRouter';
 import { Switch, Route } from 'react-router-dom';
 import Buttons from './components/Buttons/Buttons';
 import textareapage from './pages/textareapage';
@@ -31,7 +30,6 @@ class App extends Component {
               
               {/* <Route path='/dashboard' component={UsersPage} /> */}   
               <Switch>
-                <Route path='/' component={PagesRouter} /> {''}
                 <Route
                   path={`/buttons`}
                   component={buttonpages}/>
