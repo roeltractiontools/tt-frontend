@@ -31,26 +31,26 @@ class Sidenav extends Component {
               <div className="media">
                 <img className="align-self-center avatar" alt="" src={avatar}  />
                 <span className="ml-3 media-body">
-                  <span className="mt-0 welcome-text">Welcome User</span><br/>
+                  <span className="mt-0 welcome-text">Welcome Roel</span><br/>
                   <span>Admin</span>
                 </span>
               </div>
               </a>
           </li>
           <li className="nav-item active">
-              <Link to="/button" activeClassName="active">
+              <Link to="/buttons" className="nav-link " activeClassName="active">
                 <img src={icon} alt=""/>
                 <span>Buttons</span>
               </Link>
           </li>
           <li className="nav-item">
-            <Link to="/alert" activeClassName="active">
+            <Link to="/alert" className="nav-link"  activeClassName="active">
             <img src={icon} alt=""/>
               <span>Alerts</span>
             </Link>
           </li>
           <li className="nav-item">
-              <Link to="/inputs" activeClassName="active">
+              <Link to="/inputs" className="nav-link"  activeClassName="active">
                 <img src={icon} alt=""/>
                 <span>Inputs</span>
               </Link>
@@ -61,35 +61,35 @@ class Sidenav extends Component {
                 <span>Forms</span>
             </a>
             <div className="dropdown-menu" aria-labelledby="pagesDropdown">
-              <Link to="/forms" activeClassName="active">
+              <Link to="/forms" className="nav-link">
                 <img src={icon} alt=""/>
                 <span>Form Basic</span>
               </Link>
-              <Link to="/forms" activeClassName="active">
+              <Link to="/forms" className="nav-link">
               <img src={icon} />
                 <span>Form To-do</span>
               </Link>
-              <Link to="/forms" activeClassName="active">
+              <Link to="/forms" className="nav-link">
               <img src={icon} />
                 <span>Form Milestone</span>
               </Link>
-              <Link to="/forms" activeClassName="active">
+              <Link to="/forms" className="nav-link">
               <img src={icon} />
                 <span>Form Scorecard</span>
               </Link>
             </div>
           </li>
           <li className="nav-item">
-            <Link to="/Textarea" activeClassName="active">
+            <Link to="/textarea" className="nav-link" activeClassName="active">
             <img src={icon} alt=""/>
               <span>Textarea</span>
             </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/select">
+            <Link to="/select" className="nav-link" activeClassName="active">
             <img src={icon} alt=""/>
               <span>Select</span>
-            </a>
+            </Link>
           </li>
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -97,21 +97,20 @@ class Sidenav extends Component {
               <span>Tables</span>
             </a>
             <div className="dropdown-menu" aria-labelledby="pagesDropdown">
-              <a className="nav-link" href="/table#table-basic">
-              <img src={icon} alt=""/>
-                <span>Table Basic</span>
-              </a>
-              <a className="nav-link" href="/table#table-archive">
+              <Link to="/table#table-basic" className="nav-link">
+                <img src={icon} alt=""/>
+              </Link>
+              <Link to="/table#table-archive" className="nav-link">
               <img src={icon} alt=""/>
                 <span>Table Archive</span>
-              </a>
+              </Link>
             </div>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/tabs">
+            <Link to="/tabs" className="nav-link">
             <img src={icon} alt=""/>
               <span>Tab Menus</span>
-            </a>
+            </Link>
           </li>
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -119,18 +118,18 @@ class Sidenav extends Component {
                 <span>Color Blind</span>
             </a>
             <div className="dropdown-menu" aria-labelledby="pagesDropdown">
-              <a className="nav-link" href="/protanopia">
+              <Link to="/protanopia" className="nav-link">
                 <img src={icon} alt=""/>
                 <span>Protanopia</span>
-              </a>
-              <a className="nav-link" href="/deuteranopes">
-              <img src={icon} />
+              </Link>
+              <Link to="/deuteranopes" className="nav-link">
+                <img src={icon} />
                 <span>Deuteranopes</span>
-              </a>
-              <a className="nav-link" href="/tritanopes">
-              <img src={icon} />
+              </Link>
+              <Link to="/tritanopes" className="nav-link">
+                <img src={icon} />
                 <span>Tritanopes</span>
-              </a>
+              </Link>
             </div>
           </li>
         </ul>

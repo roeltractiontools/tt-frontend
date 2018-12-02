@@ -30,6 +30,7 @@ class App extends Component {
               
               {/* <Route path='/dashboard' component={UsersPage} /> */}   
               <Switch>
+                <Route exact path="/" component={buttonpages} />
                 <Route
                   path={`/buttons`}
                   component={buttonpages}/>
