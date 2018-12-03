@@ -99,6 +99,7 @@ class Sidenav extends Component {
             <div className="dropdown-menu" aria-labelledby="pagesDropdown">
               <Link to="/table#table-basic" className="nav-link">
                 <img src={icon} alt=""/>
+                <span>Table Basic</span>
               </Link>
               <Link to="/table#table-archive" className="nav-link">
               <img src={icon} alt=""/>

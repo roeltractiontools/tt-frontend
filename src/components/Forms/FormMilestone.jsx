@@ -20,7 +20,7 @@ class FormMilestone extends Component {
     }
     render() {
         return (
-            <div>
+            <div id="milestone">
               <Form>
                 <Row>
                   <Col md="12">

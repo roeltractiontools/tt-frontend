@@ -9,7 +9,7 @@ import { Container, Row, Col } from 'reactstrap';
 class FormScorecard extends Component {
     render() {
         return (
-            <div>
+            <div id="scorecard">
               <Form>
                 <Row>
                   <Col md="12">
